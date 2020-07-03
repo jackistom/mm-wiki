@@ -1,0 +1,158 @@
+<div class="container-fluid">
+    <div class="row">{{$pageContent := .page_content}}{{$document := .document}}{{$parentDocuments := .parent_documents}}
+
+        <div class="col-md-12">{{$createUser := .create_user}}{{$editUser := .edit_user}}{{$collectionId := .collection_id}}{{$space := .space}}
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h3 class="view-page-title">{{$document.name}}</h3>
+                        <p class="view-page-path">
+                            <i class="fa fa-folder fa-fw"></i>
+                            {{range $parentDocument := $parentDocuments}}
+                                {{if eq $parentDocument.parent_id "0"}}
+                                    <strong><a class="text text-info" target="_parent" href="/document/index?document_id={{$parentDocument.document_id}}">{{$parentDocument.name}}</a></strong>
+                                {{else}}
+                                    <strong> / <a target="_parent" href="/document/index?document_id={{$parentDocument.document_id}}">{{$parentDocument.name}}</a></strong>
+                                {{end}}
+                            {{end}}
+                        </p>
+                        <p class="view-page-time">
+                            <i class="fa fa-calendar fa-fw"></i>
+                            �?                            {{if eq $createUser.user_id $.login_user_id}}
+                                <a class="text text-info" href="/system/main/index" target="_parent">{{$createUser.username}}（{{$createUser.given_name}}�?/a>
+                            {{else}}
+                                <a class="text text-info" href="/user/info?user_id={{$createUser.user_id}}"> {{$createUser.username}}（{{$createUser.given_name}}�?</a>
+                            {{end}}
+                            创建�?{{dateFormat $document.create_time "Y/m/d H:i:s"}} �?�?                            {{if eq $editUser.user_id $.login_user_id}}
+                                <a class="text text-info" href="/system/main/index" target="_parent">{{$editUser.username}}（{{$editUser.given_name}}�?span class="text text-primary"></span> </a>
+                            {{else}}
+                                <a class="text text-info" href="/user/info?user_id={{$editUser.user_id}}">{{$editUser.username}}（{{$editUser.given_name}}�?span class="text text-primary"></span> </a>
+                            {{end}}
+                            最后更新于 {{dateFormat $document.update_time "Y/m/d H:i:s"}}
+                            <a name="history" data-link="/document/history?document_id={{$document.document_id}}">&nbsp<i class="fa fa-history item">查看修改历史</i></a>
+                            <a onclick="Page.attachment({{$document.document_id}})">&nbsp<i class="fa fa-paperclip item"></i> 查看附件</a>
+                        </p>
+                    </div>
+                    <div class="col-md-4 text-right">
+                        <div class="btn-group" role="group" aria-label="...">
+                            {{if eq .is_editor true}}
+                                <a type="button" class="btn btn-default" href="/page/edit?document_id={{$document.document_id}}"><i class="glyphicon glyphicon-pencil"></i>&nbsp;编辑</a>
+                            {{end}}
+                            {{if eq $collectionId "0"}}
+                                <a type="button" class="btn btn-default" onclick="Common.ajaxSubmit('/collection/add?type=1&resource_id={{$document.document_id}}')"><i class="glyphicon glyphicon-star-empty"></i>&nbsp;收藏</a>
+                            {{else}}
+                                <a type="button" class="btn btn-default" onclick="Common.ajaxSubmit('/collection/cancel?collection_id={{$collectionId}}')"><i class="glyphicon glyphicon-star"></i>&nbsp;取消</a>
+                            {{end}}
+                            {{if eq $space.is_share "1"}}
+                                <a type="button" class="btn btn-default" name="share" href="/page/display?document_id={{$document.document_id}}" target="_blank"><i class="glyphicon glyphicon-share-alt"></i>&nbsp;分享</a>
+                            {{end}}
+                            {{if eq $space.is_export "1"}}
+                                <button type="button" class="btn btn-default" data-toggle="web-popover" data-placement="bottom"><i class="glyphicon glyphicon-export"></i>&nbsp;导出</button>
+                                <div class="webui-popover-content">
+                                    <ul class="dropdown-menu webui-popover-menu">
+                                        <li><a href="/page/export?document_id={{$document.document_id}}&output=markdown"><span class="fa fa-file-text"></span> Markdown</a></li>
+                                    </ul>
+                                </div>
+                            {{end}}
+                        </div>
+                    </div>
+                </div>
+                <hr style="margin: 0">
+            </div>
+            <div class="panel-body md-view-box" >
+                <div class="dir-preview-box">
+                    <div class="dir-preview-btn">
+                        展开目录
+                    </div>
+                    <div class="page-view-dir-toc" id="page-view-dir-toc">
+
+                    </div>
+                </div>
+                <div id="document_page_view" style="padding: 0 10px 10px 10px;">
+                    <textarea style="display:none;">{{$pageContent}}</textarea>
+                </div>
+                
+                
+                <a name="test" data-link="/message/GetMessage?document_id={{$document.document_id}}" style="display:block;text-align:right;">&nbsp<i  class="fa fa-comment item">����</i></a>
+                
+                
+            </div>
+        </div>
+    </div>
+</div>
+<script src="/static/plugins/md-toc/md-toc.js"></script>
+<script type="text/javascript">
+
+
+    
+    Layers.bindIframe("[name='test']", "����", "510px", "1000px");
+
+    Layers.bindIframe("[name='history']", "文档修改历史", "508px", "1000px");
+    $("[data-toggle='web-popover']").webuiPopover({animation: 'pop',autoHide:3000});
+    if (parent.layoutOpen) {
+        parent.layoutOpen();
+    }
+    $(function() {
+        editormd.katexURL = {
+            js  : "/static/plugins/editor.md/lib/katex/katex.min",
+            css : "/static/plugins/editor.md/lib/katex/katex.min"
+        };
+        editormd.markdownToHTML("document_page_view", {
+            path : '/static/plugins/editor.md/lib/',
+            //htmlDecode      : true,       // 开�?HTML 标签解析，为了安全性，默认不开�?            htmlDecode      : "style,script,iframe",  // you can filter tags decode
+            //toc             : false,
+            tocm            : true,    // Using [TOCM]
+            //tocContainer    : "#custom-toc-container", // 自定�?ToC 容器�?            //gfm             : false,
+            //tocDropdown     : true,
+            //markdownSourceCode : true, // 是否保留 Markdown 源码，即是否删除保存源码�?Textarea 标签
+            emoji           : false,
+            taskList        : true,
+            tex             : true,  // 默认不解�?            flowChart       : true,  // 默认不解�?            sequenceDiagram : true,  // 默认不解�?        });
+
+        // 将所有的 a 标签 target="_parent"
+        $("#document_page_view").find("a").each(function () {
+            var target = $(this).attr("target") || "_parent";
+            $(this).attr("target", target);
+        })
+
+        // 生成目录�?        new Toc("document_page_view", {
+            clazz: "page-view-dir-toc",
+            level: 7,
+            top: -2,
+            targetId: "page-view-dir-toc"
+        });
+
+        // 按钮目录按钮永久显示, 滑动页面�? 固定显示
+        window.onscroll = function(){
+            var scrollHeight = document.documentElement.scrollTop || document.body.scrollTop;
+            var dirPreviewBox = $(".dir-preview-box");
+            if (scrollHeight >  120) {
+                dirPreviewBox.css({
+                    position: "fixed",
+                    top: "20px"
+                })
+            } else {
+                dirPreviewBox.css({
+                    position: "absolute",
+                    top: "0"
+                })
+            }
+        };
+
+        // 目录显示与隐�?        $(".dir-preview-btn").click(function () {
+            var pageViewDirToc = $(".page-view-dir-toc");
+            if (this.innerText === "展开目录") {
+                this.innerText = "隐藏目录";
+                pageViewDirToc.show();
+                pageViewDirToc.css({
+                    position: "absolute",
+                    top: "25px",
+                    right: 0
+                })
+            } else {
+                this.innerText = "展开目录";
+                pageViewDirToc.hide();
+            }
+        })
+    });
+</script>

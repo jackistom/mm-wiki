@@ -1,0 +1,190 @@
+2020/06/29 22:17:13.172 [I] [doc_search.go:53]  [DocSearchWork] start load all doc index
+2020/06/29 22:17:13.174 [I] [doc_search.go:53]  [DocSearchWork] finish all doc index flush
+2020/06/29 22:17:13.276 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:80
+2020/06/29 22:19:42.912 [I] [doc_search.go:53]  [DocSearchWork] start load all doc index
+2020/06/29 22:19:42.915 [I] [doc_search.go:53]  [DocSearchWork] finish all doc index flush
+2020/06/29 22:19:43.011 [E] [template.go:176]  parse template err: message/messagetree.html template: message/messagetree.html:2: undefined variable "$messagetree"
+2020/06/29 22:21:04.773 [I] [doc_search.go:53]  [DocSearchWork] start load all doc index
+2020/06/29 22:21:04.775 [I] [doc_search.go:53]  [DocSearchWork] finish all doc index flush
+2020/06/29 22:21:04.875 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:80
+2020/06/29 22:23:03.506 [I] [doc_search.go:53]  [DocSearchWork] start load all doc index
+2020/06/29 22:23:03.508 [I] [doc_search.go:53]  [DocSearchWork] finish all doc index flush
+2020/06/29 22:23:03.603 [E] [template.go:176]  parse template err: message/messagetree.html template: message/messagetree.html:4: unexpected EOF
+2020/06/29 22:26:18.709 [I] [doc_search.go:53]  [DocSearchWork] start load all doc index
+2020/06/29 22:26:18.710 [I] [doc_search.go:53]  [DocSearchWork] finish all doc index flush
+2020/06/29 22:26:18.821 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:80
+2020/06/30 01:35:07.087 [I] [doc_search.go:53]  [DocSearchWork] start load all doc index
+2020/06/30 01:35:07.089 [I] [doc_search.go:53]  [DocSearchWork] finish all doc index flush
+2020/06/30 01:35:07.245 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:80
+2020/06/30 01:38:01.240 [I] [doc_search.go:53]  [DocSearchWork] start load all doc index
+2020/06/30 01:38:01.245 [I] [doc_search.go:53]  [DocSearchWork] finish all doc index flush
+2020/06/30 01:38:01.338 [E] [template.go:176]  parse template err: message/messagetree.html template: message/messagetree.html:4: unexpected EOF
+2020/06/30 01:39:29.906 [I] [doc_search.go:53]  [DocSearchWork] start load all doc index
+2020/06/30 01:39:29.909 [I] [doc_search.go:53]  [DocSearchWork] finish all doc index flush
+2020/06/30 01:39:30.002 [E] [template.go:176]  parse template err: message/messagetree.html template: message/messagetree.html:4: unexpected EOF
+2020/06/30 01:40:39.842 [I] [doc_search.go:53]  [DocSearchWork] start load all doc index
+2020/06/30 01:40:39.845 [I] [doc_search.go:53]  [DocSearchWork] finish all doc index flush
+2020/06/30 01:40:39.951 [E] [template.go:176]  parse template err: message/messagetree.html template: message/messagetree.html:3: unexpected EOF
+2020/06/30 01:41:13.746 [I] [doc_search.go:53]  [DocSearchWork] start load all doc index
+2020/06/30 01:41:13.749 [I] [doc_search.go:53]  [DocSearchWork] finish all doc index flush
+2020/06/30 01:41:13.850 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:80
+2020/06/30 02:41:13.752 [I] [doc_search.go:72]  [DocSearchWork] start load all doc index
+2020/06/30 02:41:13.760 [I] [doc_search.go:72]  [DocSearchWork] finish all doc index flush
+2020/06/30 03:32:23.985 [I] [doc_search.go:53]  [DocSearchWork] start load all doc index
+2020/06/30 03:32:23.988 [I] [doc_search.go:53]  [DocSearchWork] finish all doc index flush
+2020/06/30 03:32:24.127 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:80
+2020/06/30 03:35:40.572 [E] [bootstrap.go:57]  search dict file docs/search_dict/dictionary.txt is not exists!
+2020/06/30 03:35:47.889 [E] [bootstrap.go:57]  search dict file docs/search_dict/dictionary.txt is not exists!
+2020/06/30 03:35:56.086 [E] [bootstrap.go:57]  search dict file docs/search_dict/dictionary.txt is not exists!
+2020/06/30 03:36:09.572 [E] [bootstrap.go:57]  search dict file docs/search_dict/dictionary.txt is not exists!
+2020/06/30 03:36:24.211 [I] [doc_search.go:53]  [DocSearchWork] start load all doc index
+2020/06/30 03:36:24.213 [I] [doc_search.go:53]  [DocSearchWork] finish all doc index flush
+2020/06/30 03:36:24.312 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:80
+2020/06/30 03:37:16.663 [I] [doc_search.go:53]  [DocSearchWork] start load all doc index
+2020/06/30 03:37:16.665 [I] [doc_search.go:53]  [DocSearchWork] finish all doc index flush
+2020/06/30 03:37:16.769 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:80
+2020/06/30 03:38:44.569 [I] [doc_search.go:53]  [DocSearchWork] start load all doc index
+2020/06/30 03:38:44.576 [I] [doc_search.go:53]  [DocSearchWork] finish all doc index flush
+2020/06/30 03:38:44.716 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:80
+2020/06/30 03:41:17.530 [I] [doc_search.go:53]  [DocSearchWork] start load all doc index
+2020/06/30 03:41:17.531 [I] [doc_search.go:53]  [DocSearchWork] finish all doc index flush
+2020/06/30 03:41:17.631 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:80
+2020/06/30 03:41:54.929 [I] [doc_search.go:53]  [DocSearchWork] start load all doc index
+2020/06/30 03:41:54.933 [I] [doc_search.go:53]  [DocSearchWork] finish all doc index flush
+2020/06/30 03:41:55.063 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:80
+2020/06/30 03:43:09.719 [I] [doc_search.go:53]  [DocSearchWork] start load all doc index
+2020/06/30 03:43:09.721 [I] [doc_search.go:53]  [DocSearchWork] finish all doc index flush
+2020/06/30 03:43:09.820 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:80
+2020/06/30 03:45:06.905 [I] [doc_search.go:53]  [DocSearchWork] start load all doc index
+2020/06/30 03:45:06.907 [I] [doc_search.go:53]  [DocSearchWork] finish all doc index flush
+2020/06/30 03:45:07.004 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:80
+2020/06/30 03:47:26.359 [I] [doc_search.go:53]  [DocSearchWork] start load all doc index
+2020/06/30 03:47:26.363 [I] [doc_search.go:53]  [DocSearchWork] finish all doc index flush
+2020/06/30 03:47:26.496 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:80
+2020/06/30 03:49:06.941 [I] [doc_search.go:53]  [DocSearchWork] start load all doc index
+2020/06/30 03:49:06.945 [I] [doc_search.go:53]  [DocSearchWork] finish all doc index flush
+2020/06/30 03:49:07.045 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:80
+2020/06/30 03:49:21.559 [I] [doc_search.go:53]  [DocSearchWork] start load all doc index
+2020/06/30 03:49:21.561 [I] [doc_search.go:53]  [DocSearchWork] finish all doc index flush
+2020/06/30 03:49:21.663 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:80
+2020/06/30 03:50:35.862 [I] [doc_search.go:53]  [DocSearchWork] start load all doc index
+2020/06/30 03:50:35.864 [I] [doc_search.go:53]  [DocSearchWork] finish all doc index flush
+2020/06/30 03:50:35.995 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:80
+2020/06/30 04:00:11.028 [I] [doc_search.go:53]  [DocSearchWork] start load all doc index
+2020/06/30 04:00:11.031 [I] [doc_search.go:53]  [DocSearchWork] finish all doc index flush
+2020/06/30 04:00:11.131 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:80
+2020/06/30 04:08:38.051 [I] [doc_search.go:53]  [DocSearchWork] start load all doc index
+2020/06/30 04:08:38.054 [I] [doc_search.go:53]  [DocSearchWork] finish all doc index flush
+2020/06/30 04:08:38.154 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:80
+2020/06/30 04:14:32.231 [I] [doc_search.go:53]  [DocSearchWork] start load all doc index
+2020/06/30 04:14:32.233 [I] [doc_search.go:53]  [DocSearchWork] finish all doc index flush
+2020/06/30 04:14:32.333 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:80
+2020/06/30 04:19:29.422 [I] [doc_search.go:53]  [DocSearchWork] start load all doc index
+2020/06/30 04:19:29.424 [I] [doc_search.go:53]  [DocSearchWork] finish all doc index flush
+2020/06/30 04:19:29.528 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:80
+2020/06/30 04:21:43.758 [I] [doc_search.go:53]  [DocSearchWork] start load all doc index
+2020/06/30 04:21:43.774 [I] [doc_search.go:53]  [DocSearchWork] finish all doc index flush
+2020/06/30 04:21:43.868 [E] [template.go:176]  parse template err: message/messagetree.html template: message/messagetree.html:3: undefined variable "$Document_id"
+2020/06/30 04:21:49.422 [I] [doc_search.go:53]  [DocSearchWork] start load all doc index
+2020/06/30 04:21:49.424 [I] [doc_search.go:53]  [DocSearchWork] finish all doc index flush
+2020/06/30 04:21:49.514 [E] [template.go:176]  parse template err: message/messagetree.html template: message/messagetree.html:3: undefined variable "$Document_id"
+2020/06/30 04:22:12.606 [I] [doc_search.go:53]  [DocSearchWork] start load all doc index
+2020/06/30 04:22:12.608 [I] [doc_search.go:53]  [DocSearchWork] finish all doc index flush
+2020/06/30 04:22:12.709 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:80
+2020/06/30 04:23:00.357 [I] [doc_search.go:53]  [DocSearchWork] start load all doc index
+2020/06/30 04:23:00.359 [I] [doc_search.go:53]  [DocSearchWork] finish all doc index flush
+2020/06/30 04:23:00.448 [E] [template.go:176]  parse template err: message/messagetree.html template: message/messagetree.html:13: undefined variable "$message"
+2020/06/30 04:24:53.618 [I] [doc_search.go:53]  [DocSearchWork] start load all doc index
+2020/06/30 04:24:53.619 [I] [doc_search.go:53]  [DocSearchWork] finish all doc index flush
+2020/06/30 04:24:53.721 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:80
+2020/06/30 04:25:54.546 [I] [doc_search.go:53]  [DocSearchWork] start load all doc index
+2020/06/30 04:25:54.566 [I] [doc_search.go:53]  [DocSearchWork] finish all doc index flush
+2020/06/30 04:25:54.672 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:80
+2020/06/30 04:27:11.404 [I] [doc_search.go:53]  [DocSearchWork] start load all doc index
+2020/06/30 04:27:11.406 [I] [doc_search.go:53]  [DocSearchWork] finish all doc index flush
+2020/06/30 04:27:11.506 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:80
+2020/06/30 04:28:55.186 [I] [doc_search.go:53]  [DocSearchWork] start load all doc index
+2020/06/30 04:28:55.189 [I] [doc_search.go:53]  [DocSearchWork] finish all doc index flush
+2020/06/30 04:28:55.290 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:80
+2020/06/30 04:29:58.655 [I] [doc_search.go:53]  [DocSearchWork] start load all doc index
+2020/06/30 04:29:58.658 [I] [doc_search.go:53]  [DocSearchWork] finish all doc index flush
+2020/06/30 04:29:58.757 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:80
+2020/06/30 04:32:28.846 [I] [doc_search.go:53]  [DocSearchWork] start load all doc index
+2020/06/30 04:32:28.848 [I] [doc_search.go:53]  [DocSearchWork] finish all doc index flush
+2020/06/30 04:32:28.947 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:80
+2020/06/30 04:32:31.010 [D] [controller.go:306]  template Execute err: html/template:message/messagetree.html:85:12: on range loop re-entry: {{range}} branches end in different contexts: {stateJSRegexp delimNone urlPartNone jsCtxRegexp attrNone elementScript <nil>}, {stateJS delimNone urlPartNone jsCtxRegexp attrNone elementScript <nil>}
+2020/06/30 04:33:06.485 [I] [doc_search.go:53]  [DocSearchWork] start load all doc index
+2020/06/30 04:33:06.487 [I] [doc_search.go:53]  [DocSearchWork] finish all doc index flush
+2020/06/30 04:33:06.614 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:80
+2020/06/30 04:33:09.013 [D] [controller.go:306]  template Execute err: html/template:message/messagetree.html:88:14: on range loop re-entry: {{range}} branches end in different contexts: {stateJSRegexp delimNone urlPartNone jsCtxRegexp attrNone elementScript <nil>}, {stateJS delimNone urlPartNone jsCtxRegexp attrNone elementScript <nil>}
+2020/06/30 04:33:12.122 [D] [controller.go:306]  template Execute err: html/template:message/messagetree.html:88:14: on range loop re-entry: {{range}} branches end in different contexts: {stateJSRegexp delimNone urlPartNone jsCtxRegexp attrNone elementScript <nil>}, {stateJS delimNone urlPartNone jsCtxRegexp attrNone elementScript <nil>}
+2020/06/30 04:34:31.177 [I] [doc_search.go:53]  [DocSearchWork] start load all doc index
+2020/06/30 04:34:31.179 [I] [doc_search.go:53]  [DocSearchWork] finish all doc index flush
+2020/06/30 04:34:31.279 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:80
+2020/06/30 04:35:42.393 [I] [doc_search.go:53]  [DocSearchWork] start load all doc index
+2020/06/30 04:35:42.396 [I] [doc_search.go:53]  [DocSearchWork] finish all doc index flush
+2020/06/30 04:35:42.502 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:80
+2020/06/30 04:41:08.226 [I] [doc_search.go:53]  [DocSearchWork] start load all doc index
+2020/06/30 04:41:08.228 [I] [doc_search.go:53]  [DocSearchWork] finish all doc index flush
+2020/06/30 04:41:08.368 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:80
+2020/06/30 04:41:46.256 [I] [doc_search.go:53]  [DocSearchWork] start load all doc index
+2020/06/30 04:41:46.258 [I] [doc_search.go:53]  [DocSearchWork] finish all doc index flush
+2020/06/30 04:41:46.358 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:80
+2020/06/30 04:43:53.063 [I] [doc_search.go:53]  [DocSearchWork] start load all doc index
+2020/06/30 04:43:53.066 [I] [doc_search.go:53]  [DocSearchWork] finish all doc index flush
+2020/06/30 04:43:53.170 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:80
+2020/06/30 04:44:39.533 [I] [doc_search.go:53]  [DocSearchWork] start load all doc index
+2020/06/30 04:44:39.539 [I] [doc_search.go:53]  [DocSearchWork] finish all doc index flush
+2020/06/30 04:44:39.639 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:80
+2020/06/30 04:46:57.695 [I] [doc_search.go:53]  [DocSearchWork] start load all doc index
+2020/06/30 04:46:57.698 [I] [doc_search.go:53]  [DocSearchWork] finish all doc index flush
+2020/06/30 04:46:57.811 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:80
+2020/06/30 04:47:39.822 [I] [doc_search.go:53]  [DocSearchWork] start load all doc index
+2020/06/30 04:47:39.824 [I] [doc_search.go:53]  [DocSearchWork] finish all doc index flush
+2020/06/30 04:47:39.948 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:80
+2020/06/30 04:48:34.180 [I] [doc_search.go:53]  [DocSearchWork] start load all doc index
+2020/06/30 04:48:34.182 [I] [doc_search.go:53]  [DocSearchWork] finish all doc index flush
+2020/06/30 04:48:34.285 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:80
+2020/06/30 04:49:48.597 [I] [doc_search.go:53]  [DocSearchWork] start load all doc index
+2020/06/30 04:49:48.599 [I] [doc_search.go:53]  [DocSearchWork] finish all doc index flush
+2020/06/30 04:49:48.730 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:80
+2020/06/30 04:50:02.880 [I] [doc_search.go:53]  [DocSearchWork] start load all doc index
+2020/06/30 04:50:02.882 [I] [doc_search.go:53]  [DocSearchWork] finish all doc index flush
+2020/06/30 04:50:02.980 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:80
+2020/06/30 04:50:35.168 [I] [doc_search.go:53]  [DocSearchWork] start load all doc index
+2020/06/30 04:50:35.170 [I] [doc_search.go:53]  [DocSearchWork] finish all doc index flush
+2020/06/30 04:50:35.273 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:80
+2020/06/30 04:52:55.981 [I] [doc_search.go:53]  [DocSearchWork] start load all doc index
+2020/06/30 04:52:55.983 [I] [doc_search.go:53]  [DocSearchWork] finish all doc index flush
+2020/06/30 04:52:56.120 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:80
+2020/06/30 04:57:45.636 [I] [doc_search.go:53]  [DocSearchWork] start load all doc index
+2020/06/30 04:57:45.638 [I] [doc_search.go:53]  [DocSearchWork] finish all doc index flush
+2020/06/30 04:57:45.766 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:80
+2020/06/30 04:59:52.790 [I] [doc_search.go:53]  [DocSearchWork] start load all doc index
+2020/06/30 04:59:52.793 [I] [doc_search.go:53]  [DocSearchWork] finish all doc index flush
+2020/06/30 04:59:52.890 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:80
+2020/06/30 04:59:54.849 [D] [controller.go:306]  template Execute err: template: message/messagetree.html:84:19: executing "message/messagetree.html" at <$message.create_time>: can't evaluate field create_time in type models.MessageTree
+2020/06/30 05:00:00.819 [D] [controller.go:306]  template Execute err: template: message/messagetree.html:84:19: executing "message/messagetree.html" at <$message.create_time>: can't evaluate field create_time in type models.MessageTree
+2020/06/30 05:00:30.949 [I] [doc_search.go:53]  [DocSearchWork] start load all doc index
+2020/06/30 05:00:30.951 [I] [doc_search.go:53]  [DocSearchWork] finish all doc index flush
+2020/06/30 05:00:31.046 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:80
+2020/06/30 05:00:32.242 [D] [controller.go:306]  template Execute err: template: message/messagetree.html:84:20: executing "message/messagetree.html" at <$message.create_time>: can't evaluate field create_time in type models.MessageTree
+2020/06/30 05:00:34.612 [D] [controller.go:306]  template Execute err: template: message/messagetree.html:84:20: executing "message/messagetree.html" at <$message.create_time>: can't evaluate field create_time in type models.MessageTree
+2020/06/30 05:00:35.237 [D] [controller.go:306]  template Execute err: template: message/messagetree.html:84:20: executing "message/messagetree.html" at <$message.create_time>: can't evaluate field create_time in type models.MessageTree
+2020/06/30 05:00:35.895 [D] [controller.go:306]  template Execute err: template: message/messagetree.html:84:20: executing "message/messagetree.html" at <$message.create_time>: can't evaluate field create_time in type models.MessageTree
+2020/06/30 05:00:39.128 [D] [controller.go:306]  template Execute err: template: message/messagetree.html:84:20: executing "message/messagetree.html" at <$message.create_time>: can't evaluate field create_time in type models.MessageTree
+2020/06/30 05:01:04.731 [I] [doc_search.go:53]  [DocSearchWork] start load all doc index
+2020/06/30 05:01:04.742 [I] [doc_search.go:53]  [DocSearchWork] finish all doc index flush
+2020/06/30 05:01:04.849 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:80
+2020/06/30 05:01:06.294 [D] [controller.go:306]  template Execute err: template: message/messagetree.html:84:21: executing "message/messagetree.html" at <$message1.create_time>: can't evaluate field create_time in type models.MessageTree
+2020/06/30 05:01:26.958 [I] [doc_search.go:53]  [DocSearchWork] start load all doc index
+2020/06/30 05:01:26.961 [I] [doc_search.go:53]  [DocSearchWork] finish all doc index flush
+2020/06/30 05:01:27.092 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:80
+2020/06/30 05:02:19.911 [I] [doc_search.go:53]  [DocSearchWork] start load all doc index
+2020/06/30 05:02:19.913 [I] [doc_search.go:53]  [DocSearchWork] finish all doc index flush
+2020/06/30 05:02:20.049 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:80
+2020/07/03 11:21:29.148 [E] [bootstrap.go:54]  database error:dial tcp 127.0.0.1:3306: connect: connection refused,with config : {utf8 utf8_general_ci mm_wiki 127.0.0.1 3306 root root mw_ __PREFIX__ 3000 5000 5000 30 200 <nil>}
+2020/07/03 11:22:50.200 [E] [bootstrap.go:54]  database error:driver: bad connection,with config : {utf8 utf8_general_ci mm_wiki 192.168.8.148 3306 root root mw_ __PREFIX__ 3000 5000 5000 30 200 <nil>}
+2020/07/03 11:24:10.530 [E] [bootstrap.go:54]  database error:Error 1130: Host '192.168.8.150' is not allowed to connect to this MySQL server,with config : {utf8 utf8_general_ci mm_wiki 192.168.8.148 3306 root root mw_ __PREFIX__ 3000 5000 5000 30 200 <nil>}
+2020/07/03 11:25:32.025 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:80
+2020/07/03 11:26:09.575 [I] [asm_amd64.s:1357]  http server Running on http://0.0.0.0:80
